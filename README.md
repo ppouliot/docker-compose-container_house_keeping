@@ -17,15 +17,13 @@ Features include:
 
 Docker-gc is a garbage collection of container and images
 
-Dry Run
--------
+* Dry Run
 
 ```
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -e DRY_RUN=1 spotify/docker-gc
 ```
 
-Execute with default cleanup plan
----------------------------------
+* Execute with default cleanup plan
 
 ```
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock spotify/docker-gc
