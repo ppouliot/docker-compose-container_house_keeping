@@ -29,3 +29,4 @@ docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -e DRY_RUN=1 spotif
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock spotify/docker-gc
 
 ```
+## [docker-gc-cron](https://github.com/clockworksoul/docker-gc-cron)
